@@ -31,7 +31,7 @@ steps:
 - task: gulp@1
   displayName: 'Run gulp tasks'
   inputs:
-    gulpFile: 'D:\agent\_work\_tasks\gulp_b82cfbe4-34f9-40f5-889e-c8842ca9dd9d\1.198.0\gulptask.js'
+    gulpFile: 'gulpfile.js'
 
 - script: 'echo "$(Build.DefinitionName), $(Build.BuildId), $(Build.BuildNumber)" > buildinfo.txt'
   displayName: 'Write build info'
